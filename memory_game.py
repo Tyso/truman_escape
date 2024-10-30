@@ -10,7 +10,7 @@ def lose1():
     print("Better luck next time !")
     exit(0)
      
-# checks whether the numbers are consecutive
+
 def check(xyz):
     i = 1
     while i<len(xyz):
@@ -19,7 +19,7 @@ def check(xyz):
         i = i + 1
     return True
  
-# starts the game
+
 def start1():
     xyz = []
     last = 0
@@ -28,7 +28,7 @@ def start1():
         print("Enter 'S' to take the second chance.")
         chance = input('> ')
          
-        # player takes the first chance
+        
         if chance == "F":
             while True:
                 if last == 20:
@@ -53,7 +53,7 @@ def start1():
                         xyz.append(a)
                         i = i + 1
                      
-                    # store the last element of xyz.
+         
                     last = xyz[-1] 
                      
                     # checks whether the input 
@@ -63,7 +63,6 @@ def start1():
                             lose1()
                              
                         else:
-                            #"Computer's turn."
                             while j <= comp:
                                 xyz.append(last + j)
                                 j = j + 1
@@ -74,12 +73,12 @@ def start1():
                         print ("\nYou did not input consecutive integers.")
                         lose1()
                          
-        # player takes the second chance
+
         elif chance == "S":
             comp = 1
             last = 0
             while last < 20:
-                #"Computer's turn"
+           
                 j = 1
                 while j <= comp:
                     xyz.append(last + j)
@@ -109,10 +108,9 @@ def start1():
                         else:
                             comp = comp
                     else:
-                        # if inputs are not consecutive
-                        # automatically disqualified
+                     
                         print ("\nYou did not input consecutive integers.")
-                        # print ("You are disqualified from the game.")
+                    
                         lose1()
             print ("\n\nCONGRATULATIONS !!!")
             print ("YOU WON !")
