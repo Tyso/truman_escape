@@ -20,7 +20,7 @@ def check(xyz):
     return True
  
 
-def start1():
+def start():
     xyz = []
     last = 0
     while True:
@@ -125,7 +125,7 @@ while game == True:
         print("Do you want to play the 21 number game? (Yes / No)")
         ans = input('> ')
         if ans =='Yes':
-            start1()
+            start()
         else:
             print ("Do you want quit the game?(yes / no)")
             nex = input('> ')
