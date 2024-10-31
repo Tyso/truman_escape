@@ -1,11 +1,11 @@
-def nearestMultiple(num):
+def aryan(num):
     if num >= 4:
         near = num + (4 - (num % 4))
     else:
         near = 4
     return near
  
-def lose1():
+def mar():
     print ("\n\nYOU LOSE !")
     print("Better luck next time !")
     exit(0)
@@ -32,7 +32,7 @@ def start1():
         if chance == "F":
             while True:
                 if last == 20:
-                    lose1()
+                    mar()
                 else:
                     print ("\nYour Turn.")
                     print ("\nHow many numbers do you wish to enter?")
@@ -42,7 +42,7 @@ def start1():
                         comp = 4 - inp
                     else:
                         print ("Wrong input. You are disqualified from the game.")
-                        lose1()
+                        mar()
              
                     i, j = 1, 1
  
@@ -56,11 +56,10 @@ def start1():
          
                     last = xyz[-1] 
                      
-                    # checks whether the input 
-                    # numbers are consecutive
+                  
                     if check(xyz) == True: 
                         if last == 21:
-                            lose1()
+                            mar()
                              
                         else:
                             while j <= comp:
@@ -71,7 +70,7 @@ def start1():
                             last = xyz[-1]
                     else:
                         print ("\nYou did not input consecutive integers.")
-                        lose1()
+                        mar()
                          
 
         elif chance == "S":
@@ -86,7 +85,7 @@ def start1():
                 print ("Order of inputs after computer's turn is:")
                 print (xyz)
                 if xyz[-1] == 20:
-                    lose1()
+                    mar()
                      
                 else:
                     print ("\nYour turn.")
@@ -100,8 +99,8 @@ def start1():
                         i = i + 1
                     last = xyz[-1]
                     if check(xyz) == True:
-                        # print (xyz)
-                        near = nearestMultiple(last)
+                     
+                        near = aryan(last)
                         comp = near - last
                         if comp == 4:
                             comp = 3
@@ -111,7 +110,7 @@ def start1():
                      
                         print ("\nYou did not input consecutive integers.")
                     
-                        lose1()
+                        mar()
             print ("\n\nCONGRATULATIONS !!!")
             print ("YOU WON !")
             exit(0)
