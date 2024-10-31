@@ -100,7 +100,7 @@ def start():
             print ("wrong choice")             
 game = True   
 while game == True:
-        print ("Player 2 is Computer.")
+        print ("Player_ is Computer.")
         print("Do you want to play the 21 number game? (Yes / No)")
         ans = input('> ')
         if ans =='Yes':
