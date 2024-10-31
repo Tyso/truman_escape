@@ -4,13 +4,10 @@ def aryan(num):
     else:
         near = 4
     return near
- 
 def mar():
     print ("\n\nYOU LOSE !")
     print("Better luck next time !")
     exit(0)
-     
-
 def check(xyz):
     i = 1
     while i<len(xyz):
@@ -18,8 +15,6 @@ def check(xyz):
             return False
         i = i + 1
     return True
- 
-
 def start():
     xyz = []
     last = 0
@@ -27,8 +22,6 @@ def start():
         print ("Enter 'F' to take the first chance.")
         print("Enter 'S' to take the second chance.")
         chance = input('> ')
-         
-        
         if chance == "F":
             while True:
                 if last == 20:
@@ -43,24 +36,17 @@ def start():
                     else:
                         print ("Wrong input. You are disqualified from the game.")
                         mar()
-             
                     i, j = 1, 1
- 
                     print ("Now enter the values")
                     while i <= inp:
                         a = input('> ')
                         a = int(a)
                         xyz.append(a)
                         i = i + 1
-                     
-         
                     last = xyz[-1] 
-                     
-                  
                     if check(xyz) == True: 
                         if last == 21:
-                            mar()
-                             
+                            mar()            
                         else:
                             while j <= comp:
                                 xyz.append(last + j)
@@ -71,8 +57,6 @@ def start():
                     else:
                         print ("\nYou did not input consecutive integers.")
                         mar()
-                         
-
         elif chance == "S":
             comp = 1
             last = 0
@@ -86,7 +70,6 @@ def start():
                 print (xyz)
                 if xyz[-1] == 20:
                     mar()
-                     
                 else:
                     print ("\nYour turn.")
                     print ("\nHow many numbers do you wish to enter?")
@@ -107,18 +90,14 @@ def start():
                         else:
                             comp = comp
                     else:
-                     
                         print ("\nYou did not input consecutive integers.")
-                    
+
                         mar()
             print ("\n\nCONGRATULATIONS !!!")
             print ("YOU WON !")
             exit(0)
-             
         else:
-            print ("wrong choice")
-                         
-         
+            print ("wrong choice")             
 game = True   
 while game == True:
         print ("Player 2 is Computer.")
