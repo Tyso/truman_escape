@@ -21,7 +21,7 @@ def start():
     while True:
         print ("Enter 'F' to take the first chance.")
         print("Enter 'S' to take the second chance.")
-        chance = input('> ')
+        chance = input('>')
         if chance == "F":
             while True:
                 if last == 20:
@@ -91,7 +91,6 @@ def start():
                             comp = comp
                     else:
                         print ("\nYou did not input consecutive integers.")
-
                         mar()
             print ("\n\nCONGRATULATIONS")
             print ("YOU WON ")
