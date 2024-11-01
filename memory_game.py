@@ -66,7 +66,7 @@ def start():
                 while j <= comp:
                     xyz.append(last + j)
                     j = j + 1
-                print ("Order of inputs after computer's turn is:")
+                print ("Order of inputs after computer turn is:")
                 print (xyz)
                 if xyz[-1] == 20:
                     mar()
@@ -93,8 +93,8 @@ def start():
                         print ("\nYou did not input consecutive integers.")
 
                         mar()
-            print ("\n\nCONGRATULATIONS !!!")
-            print ("YOU WON !")
+            print ("\n\nCONGRATULATIONS")
+            print ("YOU WON ")
             exit(0)
         else:
             print ("wrong choice")             
@@ -109,10 +109,10 @@ while game == True:
             print ("Do you want quit the game?(yes / no)")
             nex = input('> ')
             if nex == "yes":
-                print ("You are quitting the game...")
+                print ("You are quitting the game")
                 exit(0)
             elif nex == "no":
-                print ("Continuing...")
+                print ("Continuing")
             else:
                 print ("Wrong choice")
                 
