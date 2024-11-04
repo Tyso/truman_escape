@@ -1,7 +1,6 @@
-Purpose:
-The purpose of this Code of Conduct is to ensure that everyone who contributes to, or interacts with, the Memory 21 Game repository is treated with respect, feels safe, and is encouraged to collaborate and innovate. This document outlines our expectations for participants and the behaviors that foster a positive environment.
+# Contributor Covenant Code of Conduct
 
-Our Standards :
+## Our Standards :
 As contributors and maintainers, we pledge to:
 
 Be Respectful: Show courtesy and respect to all community members. Constructive criticism is encouraged, but personal attacks or derogatory comments are not tolerated.
