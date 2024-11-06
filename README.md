@@ -1,5 +1,5 @@
-# truman_escape
-This is a memory game in which you can develop your own brain memory training , hope you will enjoy it.
+ # truman_escape
+This is a memory game in which you can develop your own brain memory skill , hope you will enjoy it.
 ## Tech stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ## Rules
