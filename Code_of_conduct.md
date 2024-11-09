@@ -1,7 +1,7 @@
 # Contributor Covenant Code of Conduct
 
 ## Our Standards :
-As contributors and maintainers, we pledge to:
+As contributors and maintainers , we pledge to:
 
 - Be Respectful: Show courtesy and respect to all community members. Constructive criticism is encouraged, but personal attacks or derogatory comments are not tolerated.
 
@@ -12,3 +12,5 @@ As contributors and maintainers, we pledge to:
 - Focus on Collaboration: Strive to work together effectively to solve challenges related to the Memory 21 game, including coding, design, and testing.
 
 - Adhere to the Purpose: Ensure that all interactions and contributions serve to improve and advance the Memory 21 Game project.
+
+
